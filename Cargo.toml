@@ -1,0 +1,23 @@
+[package]
+name = "cc2650f128"
+version = "0.1.0"
+authors = ["Wesley Moore <wes@wezm.net>"]
+# edition = "2018"
+description = "Peripheral access API for TI TM4C129x microcontrollers"
+documentation = "https://docs.rs/tm4c129x"
+repository = "https://github.com/m-labs/dslite2svd"
+keywords = ["arm", "cortex-m", "tm4c", "tiva-c"]
+categories = ["embedded"]
+license = "0BSD"
+
+[dependencies]
+bare-metal = "0.2.0"
+cortex-m = "0.5.0"
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.6"
+
+[features]
+rt = ["cortex-m-rt/device"]
