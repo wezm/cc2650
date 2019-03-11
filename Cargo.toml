@@ -2,13 +2,12 @@
 name = "cc2650f128"
 version = "0.1.0"
 authors = ["Wesley Moore <wes@wezm.net>"]
-# edition = "2018"
-description = "Peripheral access API for TI TM4C129x microcontrollers"
-documentation = "https://docs.rs/tm4c129x"
-repository = "https://github.com/m-labs/dslite2svd"
-keywords = ["arm", "cortex-m", "tm4c", "tiva-c"]
+description = "Peripheral access API for TI CC26x0 microcontrollers"
+#documentation = "https://docs.rs/"
+repository = "https://git.sr.ht/~wezm/cc2650f128"
+keywords = ["arm", "cortex-m", "ti", "simplelink"]
 categories = ["embedded"]
-license = "0BSD"
+#license = "0BSD"
 
 [dependencies]
 bare-metal = "0.2.0"
