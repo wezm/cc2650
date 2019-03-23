@@ -1,13 +1,17 @@
 [package]
-name = "cc2650f128"
+name = "cc2650"
 version = "0.1.0"
 authors = ["Wesley Moore <wes@wezm.net>"]
-description = "Peripheral access API for TI CC26x0 microcontrollers"
-#documentation = "https://docs.rs/"
-repository = "https://git.sr.ht/~wezm/cc2650f128"
+description = "Device support for TI CC2650 microcontrollers"
+
+documentation = "https://docs.rs/cc2650"
+repository = "https://git.sr.ht/~wezm/cc2650"
+
+readme = "README.md"
 keywords = ["arm", "cortex-m", "ti", "simplelink"]
-categories = ["embedded"]
-#license = "0BSD"
+categories = ["embedded", "no-std"]
+
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 bare-metal = "0.2.0"
