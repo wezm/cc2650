@@ -72,7 +72,7 @@ fn init() {
 
 ## Supported Devices
 
-* CC2650 — [Datasheet], [Product Page]
+* CC2650 — [Datasheet], [Product Page][CC2650]
 
 **Note:** There are other devices in the CC26x0 family that may also work but
 these have not been tested.
@@ -95,6 +95,6 @@ This project is dual licenced under:
 [crate-docs]: https://docs.rs/cc2650
 [Datasheet]: http://www.ti.com/lit/gpn/cc2650
 [dslite2svd]: https://github.com/wezm/dslite2svd
-[Product Page]: http://www.ti.com/product/CC2650
+[CC2650]: http://www.ti.com/product/CC2650
 [Rust 2018]: https://doc.rust-lang.org/nightly/edition-guide/rust-2018/
 [svd2rust]: https://github.com/rust-embedded/svd2rust
