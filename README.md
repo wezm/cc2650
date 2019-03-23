@@ -24,9 +24,11 @@ The `rt` feature is optional and brings in support for [cortex-m-rt]:
 cc2650 = { version = "0.1", features = ["rt"] }
 ```
 
-### Example
+### Examples
 
-**Note:** This example assumes you are using [Rust 2018], I.e. Rust >= 1.31.
+See [my blog post about creating this crate][coding-retreat].
+
+**Note:** The following example assumes you are using [Rust 2018], I.e. Rust >= 1.31.
 
 ```rust
 use cc2650;
@@ -88,10 +90,11 @@ This project is dual licenced under:
 - MIT license ([LICENSE-MIT](https://git.sr.ht/~wezm/cc2650/tree/master/LICENSE-MIT) OR
   <http://opensource.org/licenses/MIT>)
 
-[dslite2svd]: https://github.com/wezm/dslite2svd
-[svd2rust]: https://github.com/rust-embedded/svd2rust
+[coding-retreat]: https://www.wezm.net/technical/2019/03/sensortag-embedded-rust-coding-retreat/
 [cortex-m-rt]: https://crates.io/crates/cortex-m-rt
-[Rust 2018]: https://doc.rust-lang.org/nightly/edition-guide/rust-2018/
-[Product Page]: http://www.ti.com/product/CC2650
-[Datasheet]: http://www.ti.com/lit/gpn/cc2650
 [crate-docs]: https://docs.rs/cc2650
+[Datasheet]: http://www.ti.com/lit/gpn/cc2650
+[dslite2svd]: https://github.com/wezm/dslite2svd
+[Product Page]: http://www.ti.com/product/CC2650
+[Rust 2018]: https://doc.rust-lang.org/nightly/edition-guide/rust-2018/
+[svd2rust]: https://github.com/rust-embedded/svd2rust
