@@ -17,7 +17,7 @@ To use, in your Cargo.toml:
 cc2650 = "0.1"
 ```
 
-The `rt` feature is optional and brings in support for [cortex-m-rt]":
+The `rt` feature is optional and brings in support for [cortex-m-rt]:
 
 ```toml
 [dependencies]
@@ -70,9 +70,7 @@ fn init() {
 
 ## Supported Devices
 
-| Device | Links                       |
-| :----: | :-------------------------: |
-| CC2650 | [Datasheet], [Product Page] |
+* CC2650 — [Datasheet], [Product Page]
 
 **Note:** There are other devices in the CC26x0 family that may also work but
 these have not been tested.
@@ -96,3 +94,4 @@ This project is dual licenced under:
 [Rust 2018]: https://doc.rust-lang.org/nightly/edition-guide/rust-2018/
 [Product Page]: http://www.ti.com/product/CC2650
 [Datasheet]: http://www.ti.com/lit/gpn/cc2650
+[crate-docs]: https://docs.rs/cc2650
